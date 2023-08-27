@@ -1,22 +1,22 @@
 package televisores;
 
 public class TV {
-    private marca marca;
+    private Marca marca;
     private int canal = 1;
     private int precio = 500;
     private int volumen = 1;
     private boolean estado;
-    private control control;
+    private Control control;
 
     private static int numTV = 0;
 
-    public TV(marca marc, boolean est){
+    public TV(Marca marc, boolean est){
         this.marca = marc;
         this.estado = est;
         TV.numTV += 1;
     }
 
-    public marca getMarca(){
+    public Marca getMarca(){
         return this.marca;
     }
 
@@ -52,11 +52,11 @@ public class TV {
         }      
     }
 
-    public control getControl(){
+    public Control getControl(){
         return this.control;
     }
 
-    public void setControl(control control){
+    public void setControl(Control control){
         this.control = control;
     }
 
