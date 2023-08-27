@@ -1,6 +1,6 @@
 package televisores;
 
-public class TV {
+public class TV{
     private Marca marca;
     private int canal = 1;
     private int precio = 500;
@@ -9,6 +9,8 @@ public class TV {
     private Control control;
 
     private static int numTV = 0;
+
+    public TV(){}
 
     public TV(Marca marc, boolean est){
         this.marca = marc;

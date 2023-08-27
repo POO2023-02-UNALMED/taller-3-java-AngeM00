@@ -3,6 +3,8 @@ package televisores;
 public class Marca{
     String nombre;
 
+    public Marca(){}
+    
     public Marca(String nombre){
         this.nombre = nombre;
     }
