@@ -22,7 +22,7 @@ public class TV{
         return this.marca;
     }
 
-    public void setMarca(marca marc){
+    public void setMarca(Marca marc){
         this.marca = marc;
     }
 
