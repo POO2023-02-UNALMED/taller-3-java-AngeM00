@@ -12,6 +12,10 @@ public class Control{
         tv = televisor;
     }
 
+    public Tv getTv(){
+        return tv;
+    }
+
     public void turnOn(){
         tv.turnOn();
     }
