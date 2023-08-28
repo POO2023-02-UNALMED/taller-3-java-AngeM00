@@ -12,7 +12,7 @@ public class Control{
         tv = televisor;
     }
 
-    public Tv getTv(){
+    public TV getTv(){
         return tv;
     }
 
