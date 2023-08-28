@@ -8,6 +8,10 @@ public class Control{
         televisor.setControl(this);
     }
 
+    public void setTv(TV televisor){
+        tv = televisor;
+    }
+
     public void turnOn(){
         tv.turnOn();
     }
